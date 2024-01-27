@@ -17,18 +17,18 @@ export default function Home() {
           />
 
           <div className={styles.cardDetails}>
-            <h1 className={styles.name}>Jessica Randall</h1>
-            <h5 className={styles.address}>London, United Kingdom</h5>
+            <h1 className={styles.name}>Hakeem Clarke</h1>
+            <h5 className={styles.address}>Kingston, Jamaica</h5>
           </div>
 
-          <p className={styles.description}>"Front-end developer and avid reader."</p>
+          <p className={styles.description}>JavaScript Developer and Designer</p>
 
           <div className={styles.socialLinks}>
-            <Link href={'#'} className={styles.socialButton} target="_blank" rel="noopener noreferrer">GitHub</Link>
-            <Link href={'#'} className={styles.socialButton} target="_blank" rel="noopener noreferrer">Frontend Mentor</Link>
-            <Link href={'#'} className={styles.socialButton} target="_blank" rel="noopener noreferrer">LinkedIn</Link>
-            <Link href={'#'} className={styles.socialButton} target="_blank" rel="noopener noreferrer">Twitter</Link>
-            <Link href={'#'} className={styles.socialButton} target="_blank" rel="noopener noreferrer">Instagram</Link>
+            <Link href={'https://github.com/hakeem-jc'} className={styles.socialButton} target="_blank" rel="noopener noreferrer">GitHub</Link>
+            <Link href={'https://www.frontendmentor.io/profile/hakeem-jc'} className={styles.socialButton} target="_blank" rel="noopener noreferrer">Frontend Mentor</Link>
+            <Link href={'https://www.linkedin.com/in/hakeemclarke/'} className={styles.socialButton} target="_blank" rel="noopener noreferrer">LinkedIn</Link>
+            <Link href={'https://dribbble.com/HakeemC'} className={styles.socialButton} target="_blank" rel="noopener noreferrer">Dribbble</Link>
+            <Link href={'https://www.instagram.com/hakeem_jc/'} className={styles.socialButton} target="_blank" rel="noopener noreferrer">Instagram</Link>
           </div>
       </div>
     </main>

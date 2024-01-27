@@ -34,7 +34,7 @@
 .address {
   margin: 0;
   font-weight: 400;
-  color: #C4F82A;
+  color: #4e9fe5;
   font-weight: bold;
 }
 
@@ -56,4 +56,9 @@
   border-radius: 8px;
   font-size: 14px;
   font-weight: bold;
+}
+
+.socialButton:hover {
+  color: #333333;
+  background-color: #4e9fe5;
 }
