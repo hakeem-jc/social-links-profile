@@ -20,7 +20,6 @@ Users should be able to:
 
 - [React](https://reactjs.org/)
 - [Next.js](https://nextjs.org/)
-- CSS custom properties
 - Flexbox
 
 ## Author
@@ -36,7 +35,7 @@ Install dependencies
 npm install
 ```
 
-First, run the development server:
+Run the development server:
 
 ```bash
 npm run dev
