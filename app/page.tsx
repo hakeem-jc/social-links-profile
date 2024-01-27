@@ -18,7 +18,7 @@ export default function Home() {
 
           <div className={styles.cardDetails}>
             <h1 className={styles.name}>Hakeem Clarke</h1>
-            <h5 className={styles.address}>Kingston, Jamaica</h5>
+            <h2 className={styles.address}>Kingston, Jamaica</h2>
           </div>
 
           <p className={styles.description}>JavaScript Developer and Designer</p>
