@@ -18,15 +18,15 @@ export default function Home() {
 
           <div className={styles.cardDetails}>
             <h1 className={styles.name}>Jessica Randall</h1>
-            <h2 className={styles.address}>London, United Kingdom</h2>
+            <h5 className={styles.address}>London, United Kingdom</h5>
           </div>
 
           <p className={styles.description}>"Front-end developer and avid reader."</p>
 
           <div className={styles.socialLinks}>
-            <Link href={'#'} className={styles.socialButton} target="_blank" rel="noopener noreferrer">Github</Link>
+            <Link href={'#'} className={styles.socialButton} target="_blank" rel="noopener noreferrer">GitHub</Link>
             <Link href={'#'} className={styles.socialButton} target="_blank" rel="noopener noreferrer">Frontend Mentor</Link>
-            <Link href={'#'} className={styles.socialButton} target="_blank" rel="noopener noreferrer">LinedIn</Link>
+            <Link href={'#'} className={styles.socialButton} target="_blank" rel="noopener noreferrer">LinkedIn</Link>
             <Link href={'#'} className={styles.socialButton} target="_blank" rel="noopener noreferrer">Twitter</Link>
             <Link href={'#'} className={styles.socialButton} target="_blank" rel="noopener noreferrer">Instagram</Link>
           </div>
