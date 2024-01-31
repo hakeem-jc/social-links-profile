@@ -7,8 +7,28 @@
 html, body {
   font-family: 'Roboto', sans-serif;
   background-color: #141414;
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 a {
   text-decoration: none;
+}
+
+.attribution a {
+  color: #4e9fe5;
+}
+
+.attribution {
+  padding-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .attribution {
+    display: flex;
+    gap: 8px;
+  }
 }
